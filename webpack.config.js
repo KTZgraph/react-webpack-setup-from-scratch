@@ -23,6 +23,11 @@ module.exports = {
       },
     ],
   },
+
+  //   https://webpack.js.org/configuration/resolve/
+  resolve: {
+    extensions: ["*", ".js", ".jsx"],
+  },
   //   domyślny tryb
   mode: "development",
   output: {
